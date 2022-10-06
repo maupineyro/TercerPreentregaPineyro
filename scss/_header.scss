@@ -1,0 +1,56 @@
+header {
+    background-color: rgb(39, 102, 120);
+
+
+    .imgLogo {
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 20%;
+        border: 5px goldenrod solid;
+        padding: 10px;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            padding: 2rem;
+
+            a {
+                text-decoration: none;
+
+
+                .inicio {
+                    &:hover {
+                        text-decoration: underline;
+                        color: $celeste;
+                    }
+                }
+
+                .formacion {
+                    &:hover {
+                        text-decoration: underline;
+                        color: $lemon
+                    }
+                }
+
+                .proyectos {
+                    &:hover {
+                        text-decoration: underline;
+                        color: $naranja;
+                    }
+
+                }
+
+                .contacto {
+                    &:hover {
+                        text-decoration: underline;
+                        color: $gris;
+                    }
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+@import "variables";
+@import "resetbody";
+@import "header";
+@import "footer";
+
+.imgproyec {
+    height: $medidachica;
+    width: $medidachica;
+}
+
+.imgslider {
+    height: $medidaSliderh;
+    width: $medidaSliderw;
+}
+
+.colorback {
+    background-color: $colorback;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .alto100 {
+        height: 100vh;
+    }
+}

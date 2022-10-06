@@ -1,0 +1,58 @@
+/* VARIABLES */
+/* FIN VARIABLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #d3e0ea; }
+
+header {
+  background-color: #276678; }
+  header .imgLogo {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 20%;
+    border: 5px goldenrod solid;
+    padding: 10px; }
+  header ul {
+    list-style: none; }
+    header ul li {
+      padding: 2rem; }
+      header ul li a {
+        text-decoration: none; }
+        header ul li a .inicio:hover {
+          text-decoration: underline;
+          color: #3ec6e5; }
+        header ul li a .formacion:hover {
+          text-decoration: underline;
+          color: #e4da55; }
+        header ul li a .proyectos:hover {
+          text-decoration: underline;
+          color: #e6b72b; }
+        header ul li a .contacto:hover {
+          text-decoration: underline;
+          color: #a0a09f; }
+
+footer {
+  width: 100%;
+  bottom: 0; }
+
+.imgproyec {
+  height: 5rem;
+  width: 5rem; }
+
+.imgslider {
+  height: 25rem;
+  width: 20rem; }
+
+.colorback {
+  background-color: #d3e0ea; }
+
+@media (min-width: 992px) {
+  .alto100 {
+    height: 100vh; } }
